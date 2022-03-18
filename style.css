@@ -44,3 +44,39 @@ nav{
     padding: 8px 30px;
     border-radius: 4px;
 }
+
+.content{
+    margin-top: 180px;
+    color: #fff;
+}
+
+.content h1{
+    font-size: 60px;
+}
+
+.search-box{
+    background: #fff;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    padding: 18px 20px;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+.search-box input{
+    background: transparent;
+    width: 600px;
+    border: 0;
+    outline: none;
+}
+
+.search-box button{
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+.search-box button img{
+    width: 22px;
+}
