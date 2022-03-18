@@ -120,4 +120,19 @@ nav{
         color: #fff;
         padding: 0;
     }
+    .content h1{
+        font-size: 30px;
+    }
+    
+    .content{
+        margin-top: 30px;
+    }
+
+    .search-box{
+        padding: 10px 20px;
+    }
+
+    .search-box button img{
+        width: 16px;
+    }
 }
