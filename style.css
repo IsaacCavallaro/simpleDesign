@@ -80,3 +80,44 @@ nav{
 .search-box button img{
     width: 22px;
 }
+
+.arrow {
+    margin-top: 120px;
+}
+
+.arrow img{
+    width: 15px;
+    padding: 20px;
+    background: rgba(0,0,0,0.3);
+    border-radius: 5px;
+    box-sizing: content-box;
+    margin: 6px;
+    cursor: pointer;
+}
+
+@media (max-width: 700px){
+    .search-box input{
+        width: 230px;
+    }
+
+    .nav-logo{
+        flex-basis: 100%;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .nav-links{
+        justify-content: center;
+    }
+
+    .nav-links a{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .nav-links .btn{
+        background: transparent;
+        color: #fff;
+        padding: 0;
+    }
+}
